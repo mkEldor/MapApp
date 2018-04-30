@@ -14,6 +14,10 @@
 		7F4F242120979AF4004DBAE9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F4F241F20979AF4004DBAE9 /* LaunchScreen.storyboard */; };
 		7F4F242C20979AF5004DBAE9 /* MapAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F4F242B20979AF5004DBAE9 /* MapAppTests.swift */; };
 		7F4F243720979AF5004DBAE9 /* MapAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F4F243620979AF5004DBAE9 /* MapAppUITests.swift */; };
+		7F4F244520979B6B004DBAE9 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F4F244420979B6B004DBAE9 /* Extensions.swift */; };
+		7F4F244720979BAB004DBAE9 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F4F244620979BAB004DBAE9 /* Models.swift */; };
+		7F4F244920979C26004DBAE9 /* DBHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F4F244820979C26004DBAE9 /* DBHelper.swift */; };
+		7F4F244B20979C56004DBAE9 /* TaskMap.xcdatamodel in Sources */ = {isa = PBXBuildFile; fileRef = 7F4F244A20979C56004DBAE9 /* TaskMap.xcdatamodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,10 @@
 		7F4F243220979AF5004DBAE9 /* MapAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MapAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F4F243620979AF5004DBAE9 /* MapAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapAppUITests.swift; sourceTree = "<group>"; };
 		7F4F243820979AF5004DBAE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7F4F244420979B6B004DBAE9 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		7F4F244620979BAB004DBAE9 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		7F4F244820979C26004DBAE9 /* DBHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DBHelper.swift; sourceTree = "<group>"; };
+		7F4F244A20979C56004DBAE9 /* TaskMap.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TaskMap.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +111,10 @@
 				7F4F241D20979AF4004DBAE9 /* Assets.xcassets */,
 				7F4F241F20979AF4004DBAE9 /* LaunchScreen.storyboard */,
 				7F4F242220979AF4004DBAE9 /* Info.plist */,
+				7F4F244A20979C56004DBAE9 /* TaskMap.xcdatamodel */,
+				7F4F244420979B6B004DBAE9 /* Extensions.swift */,
+				7F4F244620979BAB004DBAE9 /* Models.swift */,
+				7F4F244820979C26004DBAE9 /* DBHelper.swift */,
 			);
 			path = MapApp;
 			sourceTree = "<group>";
@@ -259,8 +271,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7F4F244B20979C56004DBAE9 /* TaskMap.xcdatamodel in Sources */,
 				7F4F241920979AF4004DBAE9 /* ViewController.swift in Sources */,
+				7F4F244520979B6B004DBAE9 /* Extensions.swift in Sources */,
+				7F4F244920979C26004DBAE9 /* DBHelper.swift in Sources */,
 				7F4F241720979AF4004DBAE9 /* AppDelegate.swift in Sources */,
+				7F4F244720979BAB004DBAE9 /* Models.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
